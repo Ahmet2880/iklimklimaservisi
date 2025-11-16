@@ -1,0 +1,7 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+www.rivalo.com	0	1	1762545363	15552000
+github.com	0	1	1762773442	31536000
+www.betadonis.com	0	1	1762545379	31536000
+www.bets10.com	0	1	1762545350	31536000

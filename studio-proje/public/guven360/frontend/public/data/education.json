@@ -1,0 +1,13 @@
+{
+  "SQL Injection": {
+    "alert": "SQL Injection",
+    "description": "Veritabanına zararlı sorgular gönderilebilir.",
+    "solution": "Parametrik sorgu kullan.",
+    "level": "Yüksek",
+    "code": {
+      "unsafe": "SELECT * FROM users WHERE id = " + userInput,
+      "safe": "SELECT * FROM users WHERE id = ?"
+    },
+    "related": ["Blind SQLi", "Union SQLi"]
+  }
+}
