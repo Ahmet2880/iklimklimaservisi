@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "iklimklimaservisi-new",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
